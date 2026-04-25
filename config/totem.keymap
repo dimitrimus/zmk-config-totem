@@ -41,8 +41,8 @@
             bindings = <
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,       SEMI)
-  &kp BSPC  &lt 4 Z    &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RET
-                               &kp BSPC  &lt 3 ESC  &lt 2 TAB          &lt 1 SPC  &lt 3 SQT  &kp BSPC
+ &mkp RCLK  &lt 4 Z    &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RET
+                              &mkp LCLK  &lt 3 ESC  &lt 2 TAB          &lt 1 SPC  &lt 3 SQT  &kp BSPC
             >;
         };
 
@@ -50,8 +50,8 @@
             bindings = <
             &trans     &trans     &trans     &trans     &trans         &kp GRAVE  &kp MCHOM  &kp BSPC   &kp MCEND  &trans
             &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &trans
-  &kp BSPC  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &kp RET
-                                  &kp BSPC   &lt 3 ESC  &lt 2 TAB      &kp SPC    &kp DQT    &kp BSPC
+ &mkp RCLK  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &kp RET
+                                 &mkp LCLK   &lt 3 ESC  &lt 2 TAB      &kp SPC    &kp DQT    &kp BSPC
             >;
         };
 
@@ -59,8 +59,8 @@
             bindings = <
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
             HRML(EXCL, AT,        HASH,      DLLR)      &kp PRCNT      &kp CARET  HRMR(AMPS, STAR,      LPAR,      RPAR)
-  &kp BSPC  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &trans
-                                  &kp BSPC   &lt 3 ESC  &lt 2 TAB      &kp SPC    &kp DQT    &trans
+ &mkp RCLK  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &trans
+                                 &mkp LCLK   &lt 3 ESC  &lt 2 TAB      &kp SPC    &kp DQT    &trans
             >;
         };
 
