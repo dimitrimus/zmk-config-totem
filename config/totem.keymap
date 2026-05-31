@@ -51,7 +51,7 @@
             &trans     &trans     &trans     &trans     &trans         &kp GRAVE  &kp MCHOM    &kp BSPC       &kp MCEND  &trans
             &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &trans         &kp LARW   &kp DARW     &kp UARW       &kp RARW   &trans
    &kp SQT  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &msc SCRL_UP &msc SCRL_DOWN &kp LBKT   &kp RBKT   &kp RET
-                                  &kp BSPC  &lt 3 ESC  &lt 2 TAB       &lt 1 SPC  &lt 3 SQT &kp BSPC
+                                  &kp BSPC  &lt 3 ESC  &lt 2 TAB       &lt 1 SPC  &lt 3 DQT &kp BSPC
             >;
         };
 
@@ -60,7 +60,7 @@
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
             HRML(EXCL, AT,        HASH,      DLLR)      &kp PRCNT      &kp CARET  HRMR(AMPS, STAR,      LPAR,      RPAR)
    &kp SQT  &kp EQUAL  &kp PLUS   &kp UNDER  &kp MINUS  &kp PIPE       &kp BSLH   &kp LBRC   &kp RBRC   &kp LBKT   &kp RBKT   &trans
-                                  &kp BSPC  &lt 3 ESC  &lt 2 TAB       &lt 1 SPC  &lt 3 SQT &kp BSPC
+                                  &kp BSPC  &lt 3 ESC  &lt 2 TAB       &lt 1 SPC  &lt 3 DQT &kp BSPC
             >;
         };
 
